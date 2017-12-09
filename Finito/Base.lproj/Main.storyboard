@@ -19,36 +19,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="6KU-bf-g5q">
-                                <rect key="frame" x="0.0" y="40" width="375" height="627"/>
+                                <rect key="frame" x="38" y="133.5" width="300" height="400"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COMP 4977 Final Exam" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQ7-5R-xlo">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COMP 4977 Final: Sender" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQ7-5R-xlo">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sqh-0p-Ghh">
-                                        <rect key="frame" x="0.0" y="296" width="375" height="30"/>
+                                        <rect key="frame" x="0.0" y="182.5" width="300" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9z-FI-wjx">
-                                        <rect key="frame" x="0.0" y="597" width="375" height="30"/>
+                                        <rect key="frame" x="0.0" y="370" width="300" height="30"/>
                                         <state key="normal" title="Options"/>
                                         <connections>
                                             <action selector="optionsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Ir-Nt-o0o"/>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="cnA-8P-Jju"/>
+                                    <constraint firstAttribute="height" constant="400" id="u4D-Tj-4zn"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6KU-bf-g5q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6wQ-E0-SaP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6KU-bf-g5q" secondAttribute="trailing" id="CuB-fJ-qFa"/>
-                            <constraint firstItem="6KU-bf-g5q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="fU3-vD-cGl"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6KU-bf-g5q" secondAttribute="bottom" id="pI6-cA-Rad"/>
+                            <constraint firstItem="6KU-bf-g5q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ALV-LI-QMR"/>
+                            <constraint firstItem="6KU-bf-g5q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ahe-uh-slh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
